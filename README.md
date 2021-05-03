@@ -9,7 +9,7 @@
 
 ## About App Starter
 
-Laravel app starter will a starter application for kick of any Laravel project without any hassle. Ready features are:
+Laravel app starter for kick of any Laravel project without any hassle. Ready features are:
 
 - [Login, registration, forgot password).
 - [Email varification]
