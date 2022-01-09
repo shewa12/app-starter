@@ -20,6 +20,22 @@ Laravel app starter for kick of any Laravel project without any hassle. Ready fe
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Prepare application by the below given steps
+
+1. Clone repository: git clone https://github.com/shewa12/app-starter.git
+2. Prepare .env file with DB credentials
+3. Migrate database: cmd: php artisan migrate
+4. Create a user by using Tinker: cmd: php artisan tinker
+commend shell will open then paste below code and hit enter:
+
+        use App\Models\User;
+        $user = new User;
+        $user->password = Hash::make('your-pass');
+        $user->email = 'your-email@gmail.com';
+        $user->name = 'your-name';
+        $user->save();
+
+It should print true and all set to go.
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
